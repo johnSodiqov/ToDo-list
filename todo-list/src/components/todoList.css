@@ -1,0 +1,68 @@
+
+.todo-list{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.todo-sidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 100vh;
+    background-color: rgb(111, 2, 184);
+    padding: 0 30px; 
+}
+.job-add-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.job-descrition{
+    resize: none;
+    margin: 20px 0;
+    height: 150px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.todo-jobs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 75%;
+    padding: 20px 40px ; 
+    overflow-y: scroll;
+    background-color: #fff;
+}
+.job-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 150px;
+    border-radius: 10px;
+    
+    color: #7700ff;
+    margin: 20px 20px;
+    padding: 10px 5px ;
+    border: 2px solid #7700ff;
+    box-shadow: 4px 4px 10px rgb(66, 25, 112);
+}
+
+.done-jobs{
+    background-color: rgb(203, 203, 203) !important;
+    color: #636363;
+}
+
+.dropdown-toggle{
+    background-color: #7700ff !important;
+}
+
+
+
